@@ -26,6 +26,85 @@ body, html {
   min-height: 100vh;
 }
 
+/* line 2, ../../sass/partials/_modules.scss */
+.bg-dark-gray {
+  background-color: #aaa8b0 !important;
+}
+/* line 5, ../../sass/partials/_modules.scss */
+.bg-form {
+  background-attachment: scroll;
+  background-image: url(../img/form.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 9, ../../sass/partials/_modules.scss */
+.bg-gray {
+  background-color: #c4c3c8 !important;
+}
+/* line 12, ../../sass/partials/_modules.scss */
+.bg-light-gray {
+  background-color: #e6e5eb !important;
+}
+
+/* line 17, ../../sass/partials/_modules.scss */
+.border-dark-gray {
+  border-color: #aaa8b0 !important;
+}
+/* line 20, ../../sass/partials/_modules.scss */
+.border-gray {
+  border-color: #c4c3c8 !important;
+}
+/* line 23, ../../sass/partials/_modules.scss */
+.border-light-gray {
+  border-color: #e6e5eb !important;
+}
+
+/* line 28, ../../sass/partials/_modules.scss */
+.contact-bg {
+  background-attachment: fixed;
+  background-image: url(../img/contact.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 33, ../../sass/partials/_modules.scss */
+.login-form, .register-form {
+  background-attachment: fixed;
+  background-image: url(../img/coming.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 38, ../../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+/* line 41, ../../sass/partials/_modules.scss */
+.opacity-9 {
+  opacity: 0.9;
+}
+
+/* line 51, ../../sass/partials/_modules.scss */
+.text-dark-gray {
+  color: #aaa8b0 !important;
+}
+/* line 54, ../../sass/partials/_modules.scss */
+.text-gray {
+  color: #c4c3c8 !important;
+}
+/* line 57, ../../sass/partials/_modules.scss */
+.text-light-gray {
+  color: #e6e5eb !important;
+}
+
+/* line 61, ../../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
 /* line 31, ../../sass/partials/_mixins.scss */
 .error-s1 {
   background-attachment: fixed;
