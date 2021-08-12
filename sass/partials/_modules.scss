@@ -1,13 +1,18 @@
 .bg{
+    &-academy{
+        @include set-background($bg__academy-img,0,"center","cover","scroll");
+    }
     &-dark-gray{
         background-color: $color__dark-gray!important;
     }
     &-form{        
         @include set-background($bg__form-img,0,"center right","cover","scroll");
-
     }
     &-gray{
         background-color: $color__gray!important;
+    }
+    &-home{
+        @include set-background($bg__home-img,0,"bottom right","cover","scroll");
     }
     &-light-gray{
         background-color: $color__light-gray!important;
@@ -29,9 +34,17 @@
         @include set-background($bg__contact-img,0,"top center","cover","fixed");
     }
 }
+.dance{
+    &-desc{        
+        @include set-background($bg__dance-desc-img,0,"center","cover","scroll");
+    }
+    &-ext{
+        @include set-background($bg__dance-ext-img,0,"center","cover","scroll");
+    }
+}
 .login{
     &-form{
-        @include set-background($bg__login-img,0,"top left","cover","fixed");
+        @include set-background($bg__login-img,0,"top left","cover","scroll");
     }
 }
 .opacity{
@@ -49,7 +62,7 @@
 }
 .text{
     &-dark-gray{
-        color: $color__dark-gray!important;
+        color: darken($color__dark-gray,15%)!important;
     }
     &-gray{
         color: $color__gray!important;

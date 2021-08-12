@@ -11,7 +11,7 @@ import Register from "./views/register";
 
 const appCfg = {
     routes:[
-        {navItem:true, exact:true, path:"/",name:"Home",view:<Home/>}, 
+        {navItem:true, exact:true, path:"/",name:"Home",view:<Home backLink={{name:"See now",path:"/academy"}}/>}, 
         {navItem:true, exact:true, path:"/academy",name:"Academy",view:<Academy/>}, 
         {navItem:true, exact:true, path:"/dance",name:"Dance",view:<Dance/>}, 
         {navItem:true, exact:true, path:"/contact",name:"Contact",view:<Contact/>}, 

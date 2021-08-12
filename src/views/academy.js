@@ -1,11 +1,11 @@
 import React,{Component} from "react";
-
+import ClassesList from "../components/classes_list";
 
 class Academy extends Component{
     render(){
         return(          
-            <main className="minh-100vh">     
-
+            <main className="minh-footer-adj bg-academy">     
+                <ClassesList/>
             </main>
         );
     }
