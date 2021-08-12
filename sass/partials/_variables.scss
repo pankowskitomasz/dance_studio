@@ -1,7 +1,11 @@
+$bg__academy-img: "../img/home.jpg";
 $bg__comingsoon-img: "../img/coming.jpg";
 $bg__contact-img: "../img/contact.jpg";
+$bg__dance-desc-img: "../img/dance/dance_desc.jpg";
+$bg__dance-ext-img: "../img/dance/dance_ext.jpg";
 $bg__error-img: $bg__comingsoon-img;
 $bg__form-img: "../img/form.jpg";
+$bg__home-img: "../img/home.jpg";
 $bg__login-img: "../img/coming.jpg";
 $bg__privacy-img: $bg__comingsoon-img;
 $bg__classes:
@@ -18,6 +22,7 @@ $color__gray: #c4c3c8;
 $color__dark-gray: darken($color__gray,10%);
 $color__light-gray: #e6e5eb;
 $color__shadow: #000;
+$footer__height: 57px;
 $header__height: 0px;
 $section__min-height: 100vh;
 $text__shadow: 1px 1px 4px $color__shadow;
