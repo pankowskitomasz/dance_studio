@@ -1,4 +1,4 @@
-CREATE TABLE dance_studio_tokens(
+CREATE TABLE dancestudio_tokens(
     id INT NOT NULL AUTO_INCREMENT,
     userid INT NOT NULL,
     logged DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -6,5 +6,5 @@ CREATE TABLE dance_studio_tokens(
     token VARCHAR(40) NOT NULL,
     messages INT DEFAULT 0,
     PRIMARY KEY(id),
-    FOREIGN KEY(userid) REFERENCES dance_studio_users(id)
+    FOREIGN KEY(userid) REFERENCES dancestudio_users(id)
 );
