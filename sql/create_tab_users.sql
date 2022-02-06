@@ -1,4 +1,4 @@
-CREATE TABLE dance_studio_users(
+CREATE TABLE dancestudio_users(
     id INT NOT NULL AUTO_INCREMENT,
     username VARCHAR(50) NOT NULL,
     password CHAR(40) NOT NULL,

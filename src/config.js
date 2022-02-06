@@ -25,12 +25,17 @@ const appCfg = {
 };
 
 const APP_LINKS = {
-    messages: "message.php",
+    messages: "http://localhost/dance_studio/public/message.php",
     register: "register.php",
-    users: "user.php"
+    users: "http://localhost/dance_studio/public/user.php"
+};
+
+const msgCfg = {
+    pageSize: 10
 };
 
 export {
     appCfg,
-    APP_LINKS
+    APP_LINKS,
+    msgCfg
 }
