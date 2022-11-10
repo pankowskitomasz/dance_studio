@@ -71,6 +71,21 @@
         color: $color__light-gray!important;
     }
 }
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Aldrich";
+    letter-spacing: 1px;
+}
+header{
+    z-index: 10;
+}
 textarea{
     resize: none;
+}
+@media all and (max-width:767px){
+    .navbar{
+        &-nav{
+            background-color: #fff;
+            border: 1px solid #999;
+        }
+    }
 }
